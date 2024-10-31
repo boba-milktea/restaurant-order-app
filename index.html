@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Smythe&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,200&display=swap"
+      rel="stylesheet"
+    />
+    <title>Restaurant Ordering App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Jimmy's Dinner</h1>
+      <h2>The best burgers and pizzas in town.</h2>
+      <img src="./Assets/restaurant_banner.png" alt="Restaurant app banner" />
+    </header>
+    <main>
+      <div id="modal" class="hidden">
+        <form id="checkout-form" class="modal-content">
+          <h3 class="modal-title">Enter card details</h3>
+          <label class="label-hidden" for="user-name">Name</label>
+          <input
+            type="text"
+            id="user-name"
+            name="user-name"
+            placeholder="Enter your name"
+            aria-required="true"
+            required
+          />
+          <label class="label-hidden" for="card-number">number</label>
+          <input
+            type="text"
+            minlength="13"
+            maxlength="16"
+            id="card-number"
+            name="card-number"
+            placeholder="Enter card number"
+            aria-required="true"
+            required
+          />
+          <label class="label-hidden" for="cvv">number</label>
+          <input
+            type="text"
+            pattern="\d*"
+            id="cvv"
+            name="cvv"
+            minlength="3"
+            maxlength="3"
+            placeholder="Enter CVV"
+            aria-required="true"
+            required
+          />
+          <button id="pay-button" type="submit" class="pay-button">Pay</button>
+        </form>
+      </div>
+      <div id="menu" class="menu"></div>
+      <div id="cart" class="cart"></div>
+      <div id="message" class="message hidden"></div>
+    </main>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>
