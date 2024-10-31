@@ -25,7 +25,7 @@
 ### Links
 
 - Solution URL: [https://github.com/boba-milktea/restaurant-order-app.git](https://github.com/boba-milktea/restaurant-order-app.git)
-- Live Site URL: [Restaurant Order App]([https://boba-milktea.github.io/Interactive-rating/](https://restaurant-order-app-boba.netlify.app))
+- Live Site URL: [Restaurant Order App](https://restaurant-order-app-boba.netlify.app)
 
 ## My process
 
