@@ -1,4 +1,4 @@
-# Scrimba Frond-End Frontend Developer Career Path
+# Scrimba Restaurant Order App
 
 ## Table of contents
 
